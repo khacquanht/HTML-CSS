@@ -1,0 +1,48 @@
+body {
+    font-family: 'namefontlight',Helvetica,arial,Tahoma,sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.wrapper {
+    border-bottom: 1px solid black;
+    height: 59px;
+    line-height: 59px;
+    
+    
+}
+
+.container {
+    
+    width: 1170px;
+    margin: 0 auto;
+}
+#flex {
+    display: flex;
+}
+#logo {
+    
+}
+.menu {
+    margin-left: 190px;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    margin: 0 0 0 30px;
+    padding: 0 0 5px 0;
+}
+.menu ul li a {
+    text-decoration: none;
+}
+.banner {
+    height: 590px;
+    background: #edf8ff;
+}
