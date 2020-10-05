@@ -15,6 +15,7 @@ body {
     opacity: 0.95;
     width: 100%;
     
+    
 }
 img {
     max-width: 100%;
@@ -29,9 +30,7 @@ img {
 .flex {
     display: flex;
 }
-.menu {
-    
-}
+
 .menu ul {
     margin: 0;
     padding: 0;
@@ -44,17 +43,11 @@ img {
     float: left;
     font-size: 14px;
     margin: 0 0 0 30px;
+    padding: 0 0 5px 0;
     
 }
 .menu ul li a {
     text-decoration: none;
-    color: #000000;
-    padding:  0 0 5px 0;
-    font-weight: 100;
-}
-.menu ul li a:hover {
-    color: #008fe5;
-    border-bottom: 1px solid #008fe5;
 }
 .banner {
     height: 100%;
@@ -74,8 +67,4 @@ img {
     width: 100%;
     background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/bgp3.jpg) 50% 50%;
     background-size: cover;
-}
-.title {
-    text-align: center;
-    color: #008fe5!important;
 }
