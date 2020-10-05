@@ -8,43 +8,74 @@ body {
 }
 .wrapper {
     border-bottom: 1px solid black;
+    background-color: #ffffff;
     height: 59px;
     line-height: 59px;
+    position: fixed;
+    opacity: 0.95;
+    width: 100%;
     
 }
-
-.container {
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.my_container {
     
     width: 1170px;
     margin: 0 auto;
 }
-#flex {
+.flex {
     display: flex;
 }
-#logo {
-    
-}
 .menu {
-    margin-left: 190px;
+    
 }
 .menu ul {
     margin: 0;
     padding: 0;
+    width: 100%;
+    float: right!important;
 }
 .menu ul li {
+   
     list-style: none;
     float: left;
     font-size: 14px;
     margin: 0 0 0 30px;
-    padding: 0 0 5px 0;
+    
 }
 .menu ul li a {
     text-decoration: none;
+    color: #000000;
+    padding:  0 0 5px 0;
+    font-weight: 100;
+}
+.menu ul li a:hover {
+    color: #008fe5;
+    border-bottom: 1px solid #008fe5;
 }
 .banner {
-    height: 590px;
-    background: #edf8ff;
-}
-.image-banner .margin-bottom {
+    height: 100%;
+    background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/bghome.jpg) no-repeat bottom; 
     
+}
+.marg-top {
+    margin-top: 9%;
+}
+.dlw {
+    padding-left: 13%;
+}
+.padding20 {
+    padding: 70px 0 40px 0;
+}
+.tinh-nang {
+    width: 100%;
+    background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/bgp3.jpg) 50% 50%;
+    background-size: cover;
+}
+.title {
+    text-align: center;
+    color: #008fe5!important;
 }
