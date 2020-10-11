@@ -6,6 +6,12 @@ body {
     box-sizing: border-box;
     
 }
+div {
+    display: block;
+}
+p {
+    font-size: 16px;
+}
 .wrapper {
     border-bottom: 1px solid black;
     background-color: #ffffff;
@@ -22,11 +28,13 @@ img {
     height: auto;
     vertical-align: middle;
 }
-.container {
+.my-container {
     
     width: 1170px;
     margin: 0 auto;
+    padding: 0;
 }
+
 .flex { 
     display: flex;
 }
@@ -71,7 +79,6 @@ img {
 }
 .tinh-nang {
     height: 100%;
-    width: 100%;
     background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/bgp3.jpg) 50% 50%;
     background-size: cover;
 }
@@ -81,10 +88,51 @@ img {
     text-align: center;
     font-size: 40px;
     border-radius: 100%;
+    background-color: #ffffff;
+    display: inline-block;
 }
-.spnumber {
-    
+
+.inline {
+    display: inline-block;
 }
-.text {
-    display: flex;
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #008fe5;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.titsmll {
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 41px;
+    font-family: 'namefontbold', sans-serif;
+    padding-left: 20px;
+}
+.titgth {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 36px;
+    color: #008fe5;
+}
+.bxtitgth {
+    margin-bottom: 30px;
+}
+.fixw {
+    width: 60%;
+    margin: 0 auto 50px auto;
+    font-size: 16px;
+    text-align: center;
+}
+.width37 {
+    width: 37%;
+}
+.utilities {
+    margin-bottom: 35px;
+}
+.bx1ico_txt {
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 9px;
+    padding-bottom: 17px;
 }
