@@ -20,7 +20,7 @@ p {
     position: fixed;
     opacity: 0.95;
     width: 100%;
-    
+    z-index: 999;
     
 }
 img {
@@ -102,7 +102,19 @@ h2{
     margin-top: 20px;
     margin-bottom: 25px;
 }
-
+h4 {
+    text-transform: uppercase;
+    margin-top: 40px!important;
+    margin-bottom: 15px!important;
+    color: #24272b!important;
+    font-size: 20px!important;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none!important;
+}
 .titsmll {
     text-transform: uppercase;
     font-size: 20px;
@@ -135,4 +147,21 @@ h2{
     border-bottom: 1px solid #e5e5e5;
     margin-bottom: 9px;
     padding-bottom: 17px;
+}
+.col-md-8 ul li {
+    list-style: none;
+    float: left;
+    margin: 5px;
+    padding: 10px;
+    background: #f0f4f7;
+    border-radius: 3px;
+    text-align: center;
+    height: auto;
+}
+.col-md-8 ul {
+    padding: 0;
+    margin: 0;
+}
+.download {
+    background: #eaeaea url(../images/bgappload.jpg)top center no-repeat;
 }
