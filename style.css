@@ -38,7 +38,9 @@ img {
 .flex { 
     display: flex;
 }
-
+ul {
+    list-style: none;
+}
 .menu ul {
     margin: 0;
     padding: 0;
@@ -171,6 +173,50 @@ a:hover {
     width: 45%;
     display: flex;
 }
-.box-qr p {
-    
+h3 {
+    font-size: 20px!important;
+    text-transform: uppercase;
+    color: #24272b!important;
+    margin-top: 20px!important;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0 20px 0;
+}
+ul {
+    padding: 0;
+}
+ol {
+    padding: 0;
+}
+.logo-faq {
+    float: left;
+    margin-right: 13px;
+}
+.list li {
+    list-style-type: lower-alpha;
+    font-size: 16px;
+    margin: 0 0 10px 16px;
+}
+.list li a {
+    color: #000000;
+    width: 100%;
+}
+.feedback {
+    background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/contact-bg.jpg) fixed top center;
+    background-size: cover;
+    color: #fff;
+}
+.ad-sp {
+    text-align: center;
+}
+.ad-sp svg {
+    margin-right: 10px;
+}
+label {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.label-input {
+    display: block;
+
 }
