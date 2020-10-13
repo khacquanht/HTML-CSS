@@ -163,5 +163,14 @@ a:hover {
     margin: 0;
 }
 .download {
-    background: #eaeaea url(../images/bgappload.jpg)top center no-repeat;
+    background: #eaeaea url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/bgappload.jpg)top center no-repeat;
+    background-size: cover;
+}
+.box-qr {
+    margin: auto;
+    width: 45%;
+    display: flex;
+}
+.box-qr p {
+    
 }
