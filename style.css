@@ -212,11 +212,80 @@ ol {
 .ad-sp svg {
     margin-right: 10px;
 }
+.mag-bot {
+    margin-bottom: 28px;
+}
 label {
     text-transform: uppercase;
     font-size: 18px;
+    font-weight: bold;
 }
 .label-input {
     display: block;
-
+    background: transparent;
+    width: 100%;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 12px 6px 12px;
+}
+.capcha img {
+    width: 100%;
+    height: 68px;
+}
+.submit {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.submit button {
+    padding: 13px 70px 13px 70px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 5px;
+    border: 0;
+    background: #008fe5;
+    color: #fff;
+    border-radius: 4px;
+}
+.footer {
+    padding: 30px 0 15px 0;
+    background-color: #24272b;
+    width: 100%;
+    float: left;
+}
+.copyright {
+    line-height: 23px;
+}
+.sprt_ico {
+    background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/imgsprt.png);
+    background-repeat: no-repeat;
+}
+.lgzion {
+    width: 117px;
+    height: 47px;
+    background-position: -212px -467px;
+    float: left;
+}
+.zion {
+    color: #acb3ba !important;
+    margin-left: 147px;
+    font-size: 14px;
+}
+.bxr {
+    text-align: right;
+    color: #acb3ba;
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+.bxr span a img {
+    margin-right: 16px;
+}
+.bxr span a {
+    color: #acb3ba;
+}
+.bxr span a:hover {
+    color: #008fe5;
 }

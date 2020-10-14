@@ -392,23 +392,133 @@
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <label for="fullname"> Họ tên</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên" class="label-input">
-                    </div>
-                    <div class="col-md-4">
-                        <label for="fullname"> Họ tên</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên" class="label-input">
-                    </div>
-                    <div class="col-md-4">
-                        <div>
-                            <label for="fullname"> Họ tên</label>
+                        <div class="mag-bot">
+                            <label for="fullname">Họ tên</label>
                             <input type="text" id="fullname" name="fullname" placeholder="Nhập họ tên" class="label-input">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mag-bot">
+                            <label for="email">Email</label>
+                            <input type="text" id="email" name="email" placeholder="Nhập email" class="label-input">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="mag-bot">
+                            <label for="title">Tiêu đề</label>
+                            <input type="text" id="title" name="title" placeholder="Nhập tiêu đề" class="label-input">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="mag-bot">
+                            <label for="content">Nội dung</label>
+                            <textarea name="content" id="content" cols="30" rows="6" class="label-input" placeholder="Nhập nội dung góp ý" style="height: auto;"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div  class="mag-bot">
+                            <label for="capcha">Mã bảo mật</label>
+                            <input type="text" name="capcha" id="capcha" placeholder="Nhập mã bảo vệ phía dưới" class="label-input">
+                        </div>
+                        <div class="capcha">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAAoCAIAAADYC0ddAAAJ0UlEQVR42u2bW3AT1xmA896ZTKYP7UNf8t
+                            CXPmTaTJl2pplM2wxJSQNkHGiAQBM7UNJAgGAjLnF8Aawa2xgj37ANxVeMTQ0YbGNj8EVgy5aQZd3WliVZsmUjX3SXVpeVtHJ/syCUtbRaTCQbZ/85
+                            s3PmP3v2rPZ8+1/OHr22wAgjEeQ15hEwwsDBCAMHIyEisZkrdWoGDkZ+IF2GmcOIECpJYl484FDaLa2PNY2TY4PGGdTnZSZglYsatb8MGXThsHmx8wr
+                            RoaHeYDkqfjhsno/Pj5yc0d/l9V+503qn76FmepqZdZri8PkAjthaDgzH2YjggkoqNM2JzPM3plSs4YcEIhqHleYwiI/b4M686DzQi9U4AiaavVCXq7ihnl
+                            NfJ1Mp581mvkyaWlxY3nTN6/Mxc78q4GjXT1zXqUI1M27nCXEfwFGkFEftbsFnMhzv7bD8LFiSrL8c9N6gc3OABftSBY7jQc2cyXTgDLvxbsdandGO2
+                            jupn54QdgkwD/YKwMEZG8YDAZLy3swkwHFYxKXu6wk4k22/y3Z83Ic18LxN1S5WovUXBCJjvoHl3XFu1eVv886sSTK4zb3Jfz801C0Maoa5ItCAnk73OY/7
+                            kk6VpZTlqpEirULjdMQWDvAponCxBWI10YGjyc2ucqWEaqb9o3usvwI4Tjs2UPcdGkH2Z2dV3W7+iXgBm8l29OOUrKSTJD1oQG+Zt0Rx3Hbrv6WDA2bDU+
+                            vucbNGhmJuOcLKiG0RjmzkEfVpmY71/gVyfNDszgM4dlpep+4rV6sADjASZpvtuSnCsIM5/ymoq4nntAUCAe3oUF97HdSn1LIYjdJe0wZGopFzlaS/VtgI+
+                            rbqVoq+Zi/2tZR/ZVoTqgRQ4pGtLBXIZgGODv0EtU8BV7JUP+ztoAMHTElmWSnwcar8gtXhIJSQs7AKzs4ajfHBwu9fJLvwxKc3Lp3ST47FdKwze9kkn/
+                            LUgnYLQc/+8hRF36qpceAA/Eio0uTFVgaOEqUkVdLv9vuX0Vfs7QQ4WPZ1Uc+cMRgABeDjOKdAqhyra2vJqfwvpC3xIcM4q7vE/hdUVLKBWI/lcXmAACg
+                            jAoRspAUI0YTa0fBv0cLCHsnAbslAIFxAGm849C4UzIbUYljekJDNAhw33Nl0Tp6emwMygA8oYEjArcSHjMfakfPHthSwEmJtMAgZFY4QBGgQDfkJjE8TT
+                            XBO2L7jTwJPcCtLs5WFuK2QhuYvt6fHlz0k27HxK+ubroCd5vmdAzyIMwg+wMWYrNZYT5XDagRXknNwA/KoOz4sSvslBAFgQkhNbqebaIJzwvaV2MxAABi
+                            PlYejc2ayVju67PF0fgTMxiPvbZrnN/d05ddU2VG0vr2N4AMMicFiielUNZWnAxm1576NW8xLpKxh4Qh6HDgnPFh2C5GVQJCxknCAK7k8jrzMU4D8pd6VRv
+                            PkxrsdR87loS7X01dkTJGSnwt8ZF0sDyxZevmxRD+hADKgyAX3gzHpiw43q5+SDC2+ynAkCtTVSqpHRxAAdiKS5ZAPhk+UfIEABBwAwX3DzIrBMWozX1LL8
+                            ZeYlZvunBLnbponq3U64KCm5RZJeeAMG/QQn8YIjo4GDgGHUsqrK0iGCijzDm98oYsc/WZHwvtvQQWORInaJVLMMaXSEU1qqSpS3wLNKECQjAhR//OFA60L
+                            JeAIxBoOLWqrUMv8S8gwetyzbiedK4ArKUA/o39nrQ+4AMGAhLxCX9t6G/T/u9dJa9DBicL8HnZGe9stGerw0OlSlvkFAJGfsvlRz00IPnxPbDWRtoC4UFv
+                            0t0gu2rZx3e7t70EdjkSl914UT8ranEyRrRzZeBj34xHTOo8bAlLgIE0hltstGI7DMVeNEHAUa8f4FmOs4Jh2OcrVMgwn35zNi4EtoXMFie/+WXTb0gUxCm
+                            nh9gIEXfxB8hKLVAJ6iEWouxvmHbu2VqYfb0FkevHQFPDx5z+cu9cxGnVxhTAbxJJXUFC7mXN8K1S6bpRHvfOs7/dHRSHM6sCxorDrHMIuAeiLWJwowZzbm
+                            T4mIYIPKNkqud6z6I4LtQogY3n2PjocYBhSJf3JIm6K6AGpQELbTrkORojSN5iH/sO3QM5C53DNY39E76DQagCCkkbyimFHfx/oRzRU6ZLTiSVsKPvsk8uh
+                            yrSjt3//m2xut5KioxfzEHAsXdvovnlx0YCzEqK8SDrNvsSPljETfa0PAYL6/DqSHjQv9HkFbAYciVgk1Mv8+HDYvVi6lBe6kyO0HBZxLVgUWz3hl+SiWzw
+                            Bsuux4DNgS6K8TI1XSRw43e6MC8Xnr9RSdyzlcIGDK9WCH3jGcSMoP3i3EPNEfGQ47ifgUMvJFgtCEDhCk5fyJ5ecy9j64dupyYnVFfkyMZ/+TGAeLG37d5
+                            m70kODX6hn7EyDsjSLiYPEdpsgGIavrG/usrzxueXnoQWaIKFtcrOpu3t9vmuddw/lZkPa8giRdwv4mWWlDR3tUZfCgADgoI9L3j754V+KQd/cRLXT4GzyJ
+                            iBAMfyApJ98sj8BmuyWiLucTIa5LX/7bTAIJeLQIf4Dmo9L/HCYZCSI77QIX76wEhJDOKyBuX22X4fu5AgWaN1ped2IT9G5DiAiV6sgj4UjnW0+JiMKBEAR
+                            CXWkpiMHroOedYhqN0lDyQkggN9F/iqkU0mJzMUf2VZbzEYBr6etuT7vdArYj2DCQv+hyXhSMB5t1a1QWcz8d6VHymBfecuxIsLnaQk4IFUhNRFhx6b1pVQ
+                            JTs9NgOB6RQZJP44ICDhoisfjvtVUHYRDgYhpdgRXAlkrwDE2PLayT3Jt7j4n4OjqVJD0J1PbQP/uunxK3++CxGTpwoag+/oLwREUSGVfyHisHlmzf00ACA
+                            AFkvJ02h3QQ05L3ZcIOEKNBxBTfjKxofjYMu5EMjRAwBEI4AwcKy9lRYuz+8e3csbVzz8d+/144vZqgGPvF1eiXgFS2QsZn9fkH5IO3hX336nM2XevqdTnX
+                            eY34T071i/mlq/a/znWJhxer58g4P13OI11Qkhb4Pj1l1e3flQBcLAz2mleRz+hgAwW0lqM3ipwJMnOOPiETj8Dx6oQHA9crX26izF5f1NdJR91eP70dh7A
+                            MdCnWWDkpwxHpEAkYUNZ/Mf9Z8I7FUVsBo7V62g2f3Ah1qPMzz62mMmfuPp62wEOk2GOgWOVSvbJDjAb6cdbYjeEw2ELroo6n+31VSuRb5I20V/kYOCIt1R
+                            dHAAyDuxt9PvjkUwCH0nb/lqU9z3EoeWFp82m+Vf0ua1xOCAIzfyuFcgozO+BEJWJMRk4CHs+X8rhQip7IqUZ6sxMM3A8iwG56pabUj5PGx8/wsDBCAMHI4
+                            w8k/8D92MJcCv5t/wAAAAASUVORK5CYII=" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="button">Gửi góp ý</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="my-container">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="copyright">
+                            <div class="lgzion sprt_ico l_footer"></div>
+                            <div class="zion">
+                                Công ty Cổ phần ZION
+                                <br>
+                                Địa chỉ: Z06 Đường số 13, Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh, Việt Nam.
+                                <br>
+                                Giấy chứng nhận đăng ký kinh doanh số: 0101659783, đăng ký thay đổi lần thứ 30,
+                                <br>
+                                ngày 22 tháng 01 năm 2020 do Sở kế hoạch và đầu tư Thành phố Hồ Chí Minh cấp.
+                                <br>
+                                Số Điện Thoại (Hotline): 1900 545 436
+                                <br>
+                                Email: <a href="mailto:hotro@zalopay.vn">hotro@zalopay.vn</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="copyright">
+                            <p class="bxr">
+                                <span>
+                                <a href="https://zalopay.vn/quy-dinh">Quy Định Dịch Vụ</a>
+                                </span>
+                                 . 
+                                 <span>
+                                     <a href="https://zalopay.vn/guidelines">Branding Guidelines</a>
+                                 </span>
+                            </p>
+                            <p class="bxr">© Copyright ZaloPay 2016-2020</p>
+                            <p class="bxr">
+                                <span>
+                                    <a href="http://online.gov.vn/Home/AppDetails/879">
+                                        <img src="https://static.zalopay.com.vn/stc/quydinh/ver200723/images/quydinh/BCTLogo.png" height="47" width="140" alt="">
+                                    </a>
+                                </span>
+                                <span>
+                                    <a href="#">
+                                        <img src="https://static.zalopay.com.vn/stc/quydinh/ver200723/images/PCI_logo.gif" target="_blank" height="47" width="80" alt="">
+                                    </a>
+                                </span>
+                                <span>
+                                    <a href="https://facebook.com/ZaloPay">
+                                        <img src="https://icon-library.com/images/facebook-white-icon-png/facebook-white-icon-png-6.jpg" width="31" height="31" alt="" style="margin:0">
+                                    </a>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </footer>
     <!-- <div id="tinh-nang-noi-bat" class="tinhnang">
         <div class="my-container padding20">
             <div class="col-md-12">
