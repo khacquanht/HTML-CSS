@@ -10,6 +10,7 @@ div {
     display: block;
 }
 p {
+    margin-bottom: 0!important;
     font-size: 16px;
 }
 .wrapper {
@@ -79,30 +80,112 @@ ul {
 .padding20 {
     padding: 70px 0 40px 0;
 }
-.tinh-nang {
+.salient-features {
     height: 100%;
     background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/bgp3.jpg) 50% 50%;
     background-size: cover;
 }
-.number {
-    width: 68px;
-    height: 68px;
-    text-align: center;
-    font-size: 40px;
-    border-radius: 100%;
-    background-color: #ffffff;
-    display: inline-block;
-}
-
 .inline {
     display: inline-block;
 }
+.bx {
+    position: relative;
+    width: 50%;
+    display: block;
+    min-height: 400px;
+}
+.number, .number_r {
+    width: 68px;
+    height: 68px;
+    text-align: center;
+    vertical-align: middle;
+    float: left;
+    background: #fff;
+    border-radius: 100%;
+    left: 0;
+}
+.number_r {
+    right: 30px;
+}
+.spnumber, .spnumber_r {
+    color: #04be04;
+    font-size: 40px;
+    padding: 7px 0;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+}
+.spnumber_r {
+
+}
+.feature, .feature_r {
+    padding: 10px 40px 10px 85px;
+    max-width: 370px;
+    min-width: 335px;
+    height: 68px;
+    background: #008fe5;
+    border-radius: 40px;
+    font-size: 15px;
+    color: #ffffff;
+    line-height: 50px;
+    display: list-item;
+    list-style: none;
+}
+.feature_r {
+    padding: 10px 75px 10px 40px;
+    text-align: right;
+}
+.bx_icol1 {
+    right: 36px;
+    top: -60px;
+}
+.bx_icol2 {
+    right: 130px;
+    top: 58px;
+}
+.bx_icol3 {
+    right: 130px;
+    top: 174px;
+}
+.bx_icol4 {
+    right: 36px;
+    top: 297px;
+}
+.bx_icol5 {
+    left: 70px;
+    top: -60px;
+}
+.bx_icol6 {
+    left: 172px;
+    top: 58px;
+}
+.bx_icol7 {
+    left: 172px;
+    top: 174px;
+}
+.bx_icol8 {
+    left: 70px;
+    top: 297px;
+}
+.bx_icol1, .bx_icol2, .bx_icol3, .bx_icol4, .bx_icol5, .bx_icol6, .bx_icol7, .bx_icol8 {
+    width: 380px;
+    position: absolute;
+}
+/* .image-center {
+    background: url(https://static.zalopay.com.vn/stc/quydinh/ver200723/images/zalocirle.png) no-repeat;
+    width: 359px;
+    height: 311px;
+    margin: 0 auto 0;
+} */
 h2{
     text-transform: uppercase;
     text-align: center;
     color: #008fe5;
     margin-top: 20px;
     margin-bottom: 25px;
+}
+.col-md-8 p {
+    margin-bottom: 12px!important;
 }
 h4 {
     text-transform: uppercase;
