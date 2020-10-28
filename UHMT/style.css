@@ -41,3 +41,18 @@ p {
     box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
     overflow: hidden;
 }
+.mag14 {
+    margin-top: 14px;
+}
+.mag4 {
+    margin-top: 4px;
+}
+.magb2 {
+    margin-bottom: 2px;
+}
+.fontsz12 {
+    font-size: 12px;
+}
+.fontsz18 {
+    font-size: 18px;
+}
