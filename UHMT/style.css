@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -16,6 +17,7 @@ p {
 .thumbnail  {
     padding-left: 16px;
     padding-right: 16px;
+    padding-bottom: 92px;
 }
 .mag {
     margin-top: 156px;
@@ -30,8 +32,11 @@ p {
     z-index: -1;
     object-fit: cover;
 }
-.pad {
+.pad12 {
     padding: 12px;
+}
+.pad16 {
+    padding: 16px 0 16px 0;
 }
 .card {
     width: 100%;
@@ -41,8 +46,8 @@ p {
     box-shadow: 0 0 10px 0 rgba(0,0,0,.2);
     overflow: hidden;
 }
-.moneym {
-    justify-content: space-between;
+.border-top {
+    border-top: 1px solid #e7eaec;
 }
 .flex {
     display: flex;
@@ -62,14 +67,23 @@ p {
 .magt12 {
     margin-top: 12px;
 }
+.magt24 {
+    margin-top: 24px;
+}
 .magb2 {
     margin-bottom: 2px;
 }
 .magb8 {
     margin-bottom: 8px;
 }
+.magb12 {
+    margin-bottom: 12px;
+}
 .magl4 {
     margin-left: 4px;
+}
+.magl12 {
+    margin-left: 12px;
 }
 .padt12 {
     padding-top: 12px;
@@ -89,8 +103,26 @@ p {
 .lineht14 {
     line-height: 14px;
 }
-.color {
+.lineht18 {
+    line-height: 18px;
+}
+.lineht20 {
+    line-height: 20px;
+}
+.lineht22 {
+    line-height: 22px;
+}
+.colorgr {
     color: #8995a1;
+}
+.colorbl {
+    color: #15b34e;
+}
+.space-between {
+    justify-content: space-between;
+}
+.align-item {
+    align-items: center;
 }
 .money {
     width: 100%;
@@ -128,4 +160,23 @@ p {
 }
 button {
     border: none;
+}
+button:hover {
+    cursor: pointer;
+}
+.grid-colum {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 12px;
+}
+.pad12 button {
+    padding: 8px 10px 8px 10px;
+    height: 60px;
+    border: 1px solid #e7eaec;
+    border-radius: 6px;
+}
+.love-avatar {
+    position: absolute;
+    bottom: -2px;
+    right: -3px;
 }
